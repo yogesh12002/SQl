@@ -1,4 +1,5 @@
 --Assignment 1
+
 -- 1.  Execute a literal select statement that returns your name. 
 select 'Yogesh' as name
 
