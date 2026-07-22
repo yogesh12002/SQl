@@ -65,3 +65,11 @@ alter table work alter Column Salary Decimal(10,2)
 
 --14. Write an SQL statement to drop the Bonus column from the Employees table. 
 alter table work drop column Bonus 
+
+--15. Fetch the all the department 
+select department ,
+max (salary )as MAximum
+from work
+group by department 
+having max (salary)> 20000
+order by  1 Desc
